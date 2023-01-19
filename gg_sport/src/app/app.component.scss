@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(171, 180, 180);
+    box-shadow: 2px 3px 5px 1px rgba(61, 61, 61, 0.505);
+    
+
+    .header-principal{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo{
+            margin-left: 20px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .menu-header{
+        display: flex;
+        
+        a{
+            padding: 10px 60px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(46, 45, 45);
+            transition: 0.8s;
+            letter-spacing: 5px;
+            &:hover{
+                background-color: rgb(145, 149, 149) ;
+                
+            }
+        }
+
+    }
+    .login-header{
+        display: flex;
+        margin-right: 20px;
+        a{
+            text-decoration: none;
+            color: rgb(64, 64, 64);
+        }
+        p{
+            margin: 0 10px;
+        }
+    }
+}
